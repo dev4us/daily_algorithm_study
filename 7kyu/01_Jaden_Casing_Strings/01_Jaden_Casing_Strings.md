@@ -22,12 +22,19 @@ String.prototype.toJadenCase = function () {
   var result = "";
     
   for(var i = 0; i < splitArray.length; i++){
-    result += splitArray[i].charAt(0).toUpperCase() + splitArray[i].substring(1, splitArray.length) + ' ';
+    result += splitArray[i].charAt(0).toUpperCase() + splitArray[i].substring(1, splitArray[i].length) + ' ';
   }
     
   return result = result.slice(0, -1);
 };
 ```
 
-## E1.
+## Solution.
+```javascript
+String.prototype.toJadenCase = function () { 
+  return this.split(" ").map(function(word){
+    return word.charAt(0).toUpperCase() + word.slice(1);
+  }).join(" ");
+}
+```
 
