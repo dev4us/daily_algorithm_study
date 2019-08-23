@@ -1,11 +1,11 @@
-# 7kyu_01_Jaden_Casing_Strings
+## **7kyu_01_Jaden_Casing_Strings**
 
 ## Question. 
 Jaden Smith, the son of Will Smith, is the star of films such as The Karate Kid (2010) and After Earth (2013). Jaden is also known for some of his philosophy that he delivers via Twitter. When writing on Twitter, he is known for almost always capitalizing every word.
 
 Your task is to convert strings to how they would be written by Jaden Smith. The strings are actual quotes from Jaden Smith, but they are not capitalized in the same way he originally typed them.
 
-Example:
+**Example:**
 
 Not Jaden-Cased: "How can mirrors be real if our eyes aren't real"
 
@@ -18,7 +18,7 @@ Will Smith의 아들인 Jaden Smith는 The Karate Kid (2010)와 After Earth (201
 
 당신의 임무는 문자열을 Jaden Smith가 쓴 방식으로 변환하는 것입니다. 문자열은 Jaden Smith의 실제 인용문이지만 원래 입력 한 것과 같은 방식으로 대문자로 표기되지 않았습니다.
 
-예:
+**예:**
 
 Not Jaden-Cased: "How can mirrors be real if our eyes aren't real"
 

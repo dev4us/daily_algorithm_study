@@ -1,4 +1,4 @@
-# 7kyu_02_Binary_Addition
+## **7kyu_02_Binary_Addition**
 
 ## Qusetion. 
 Implement a function that adds two numbers together and returns their sum in binary. The conversion can be done before, or after the addition.
